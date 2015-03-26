@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -7,6 +9,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 .footer {
   position: absolute;
@@ -20,13 +23,21 @@ body {
 
 /* Custom page CSS
 -------------------------------------------------- */
-/* Not required for template or sticky footer method. */
+
+.page-header {
+  border: none;
+}
+
 
 .container {
   width: auto;
-  max-width: 680px;
+  max-width: 960px;
   padding: 0 15px;
 }
 .container .text-muted {
   margin: 20px 0;
+}
+
+footer .container {
+  margin-top:20px;
 }
